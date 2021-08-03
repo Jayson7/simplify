@@ -1,0 +1,81 @@
+.section3 {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.959);
+}
+
+.text-section3 {
+    color: azure;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.text-section3 h1 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+.text-section3 h5 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.text-section3 p {
+    font-size: 0.9rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    margin-top: -1rem;
+}
+
+span {
+    border-bottom: 3px solid rgb(37, 37, 160);
+    width: 20%;
+}
+
+@media screen and (max-width: 600px) {
+    .text-section3 p {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-top: -1rem;
+    }
+}
+
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(9, 26, 41);
+    margin: 20px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    border-radius: 0% 0% 30% 30%;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.box1 p,
+.box2 p,
+.box3 p {
+    font-size: 0.7rem;
+    padding: 2px;
+}
