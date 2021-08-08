@@ -1,4 +1,6 @@
 A simple web app built with React Js
+*****************************************
+A preview is available at
 
 https//:websimplify.netlify.app
 
